@@ -3,7 +3,7 @@ module.exports = {
     client: 'sqlite3',
     useNullAsDefault: true,
     connection: {
-      filename: './backend/data/simstracker-.db3',
+      filename: './backend/data/sims-tracker.db3',
     },
     pool: {
       afterCreate: (conn, done) => {
