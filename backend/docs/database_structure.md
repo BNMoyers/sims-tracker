@@ -21,6 +21,8 @@
         - [] **finances**  [separate table]
         - [] **relationships** [separate table]
 
+        *** sim_traits
+            
 
     ## Household
         - [] id 
