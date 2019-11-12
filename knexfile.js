@@ -1,9 +1,12 @@
+// Update with your config settings.
+
 module.exports = {
+
   development: {
     client: 'sqlite3',
     useNullAsDefault: true,
     connection: {
-      filename: './backend/data/sims-tracker.db3',
+      filename: './backend/data/auth.db3'
     },
     pool: {
       afterCreate: (conn, done) => {
@@ -11,10 +14,13 @@ module.exports = {
       },
     },
     migrations: {
-      directory: './backend/data/migrations',
+      directory: './backend/data/migrations'
     },
-    seeds: {
-      directory: './backend/data/seeds',
-    },
+    seeds: { 
+      directory: './backend/data/seeds'
+    }
   },
+
+ 
+
 };
