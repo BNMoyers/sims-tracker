@@ -1,6 +1,6 @@
 //imports and dependencies
 const bcrypt = require('bcryptjs');
-const Users = require('./user-model');
+const Users = require('../helpers/user-model');
 
 //middleware as export
 module.exports = (req, res, next) => {

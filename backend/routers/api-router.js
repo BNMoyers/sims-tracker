@@ -1,8 +1,8 @@
 //imports and dependencies
 const bcrypt = require('bcryptjs');
 const router = require('express').Router();
-const Users = require('./user-model');
-const requiresAuth = require('./requires-auth-middleware');
+const Users = require('../helpers/user-model');
+const requiresAuth = require('../middleware/requires-auth-middleware');
 
 //test
 router.get('/', (req, res) => {

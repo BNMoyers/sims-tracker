@@ -1,8 +1,8 @@
 //dependencies and imports
 const express = require('express');
 
-const apiRouter = require('./api/api-router');
-const configureMiddleware = require('./api/configure-middleware');
+const apiRouter = require('./routers/api-router');
+const configureMiddleware = require('./middleware/configure-middleware');
 
 //server
 const server = express();
