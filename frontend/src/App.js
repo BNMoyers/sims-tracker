@@ -5,7 +5,9 @@ import { useSelector } from 'react-redux';
 
 
 //imports
+import { browserHistory } from './'
 import { SignInSide as Login } from './Onboarding/SignInSide';
+
 //app
 function App(props) {
   return (
